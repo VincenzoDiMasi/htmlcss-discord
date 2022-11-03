@@ -96,7 +96,7 @@ header {
   justify-content: center;
   background-image: url("img/jumbo.png");
   background-size: cover;
-
+  color: white;
 }
 
 .jumbotron .content {
@@ -104,8 +104,34 @@ header {
   /* height: 100%; */
   /* margin: 0 auto; */
   /* background-color: violet; */
+  text-align: center;
+
 
 }
+
+.jumbotron h1 {
+  padding: 50px 0 20px 0;
+  font-size: 50px;
+}
+
+.jumbotron p {
+  padding-bottom: 15px;
+  }
+
+  .jumbotron .content button {
+  border-radius: 50% 50% 50% 50%;
+  background-color: #fff;
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  }
+
+  #blk-bttn {
+    background-color: rgb(6, 6, 6);
+    color: #fff;
+  }
+
+
 
 /* # Main & sections */
 section {
