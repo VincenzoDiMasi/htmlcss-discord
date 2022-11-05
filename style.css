@@ -51,6 +51,28 @@ h1 {
 
 }
 
+h2 {
+  color: rgb(113, 135, 213);
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  color: rgb(113, 135, 213);
+  font-size: 20px;
+}
+
+ul {
+  color: #fff;
+  list-style: none;
+  line-height: 38px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* # Navbar */
 
 .navbar {
@@ -87,10 +109,10 @@ h1 {
   text-align: right;
 }
 .navbar-actions button {
-  border-radius: 40%;
+  border-radius: 20px;
+  padding: 10px 15px;
   background-color: #fff;
-  height: 40px;
-  width: 70px;
+  text-decoration: none;
   
 }
 
@@ -128,11 +150,10 @@ h1 {
   }
 
   .jumbotron .content button {
-  border-radius: 50% 50% 50% 50%;
+  border-radius: 20px;
+  padding: 10px 15px;
   background-color: #fff;
-  height: 50px;
-  width: 200px;
-  font-weight: bold;
+  text-decoration: none;
   }
 
   #blk-bttn {
@@ -189,19 +210,36 @@ footer {
   height: 600px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid rgb(113, 135, 213);
 
   display: flex;
 }
 
+.flag {
+  height: 20px;
+}
+
 .footer-top .footer-left {
   flex-basis: 30%;
-  background-color: pink;
+  background-color: rgb(35, 39, 42);
 }
+
+.footer-top .footer-left span {
+  color: #fff;
+  padding: 5px;
+  position: relative;
+  bottom: 4px;
+}
+
+.fa-brands {
+  color: #fff;
+  padding: 15px 30px 5px 0;
+}
+
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
+  background-color: rgb(35, 39, 42);
 }
 
 .footer-nav {
@@ -219,10 +257,18 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
+  background-color: rgb(35, 39, 42);
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+  background-color: rgb(35, 39, 42);
+}
+
+.footer-bottom button {
+  background-color: rgb(188, 200, 237);
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
 }
